@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radar Wave</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="shortcut icon" type="imagex/png" href="imgs/Wradar.png">
+</head>
+
+<body>
+    <header>
+        <div id="cabeca">
+            <a href=""><img src="imgs/Wradar.png" alt="Logo" id="logo"></a> <!-- Logo -->
+            <nav id="menuLinks">
+                <a href="#sobre">Sobre</a>
+                <a href="#produtos">Produtos</a>
+                <a href="#patrocinadores">Patrocinadores</a>
+                <a href="#chatbot">ChatBot</a>
+                <a href="#jogo">Jogo</a>
+                <a href="#integrantes">Integrantes</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <!-- Animação de texto -->
+            <div class="msg-wrapper">
+                <div class="msg">Olá, seja bem-vindo(a)</div>
+            </div>
+            <!-- Imagem flutuante -->
+            <div class="position">
+                <img class="img-anime" src="imgs/Waveradar.png" alt="Radar">
+            </div>
+        </div>
+    </main>
+    <section id="sobre">
+        <div>
+            <div id="sobre1">
+                <h1 id="titulosobre">
+                    Conectando <span id="corescrita">você</span> ao futuro:<br>
+                    <span id="corescrita">radares</span> Arduino que fazem<br> a diferença!
+                </h1>
+                <h2 id="sobreConteudo">Neste projeto, exploramos a integração de várias <span id="corescrita">
+                        tecnologias</span><br> para criar soluções <span id="corescrita">interativas</span> e
+                    educativas.
+                    Unimos um radar<br> feito com <span id="corescrita">Arduino</span>, um site dinâmico em HTML,
+                    CSS e JavaScript,<br> um jogo no Scratch e um <span id="corescrita">chatbot</span>
+                    interativo, mostrando como<br> diferentes plataformas se combinam para oferecer <span
+                        id="corescrita">experiências</span><br> únicas.</h2>
+            </div>
+
+            <div id="produtos"></div>
+            <div id="sobre2">
+                <center>
+                    <h1>Experimente novas perspectivas com o RadarWave!</h1>
+                </center>
+                <center> 
+                    <p>Temos diversas possibilidades para inovar o seu dia</p>
+                </center>
+            </div>
+            <div id="container1">
+                
+                <div class="cardprodutos">
+                    <img src="imgs/arduino.webp" alt="Imagem arduino" id="Imgarduino" width="210px" height="180px">
+                    <h1 class="arduinoescrita">ARDUINO UNO</h1>
+                    <h3 id="txtarduino">
+                        Arduino Uno é uma placa de microcontrolador.
+                        Ela possui 14 pinos digitais, 6 entradas analógicas,
+                        e se comunica via USB com um computador para programação.
+                        O Arduino Uno é compatível com uma grande de sensores
+                    </h3>
+                </div>
+                <div class="cardprodutos">
+                    <img src="imgs/Led.PNG" alt="Imagem LED" id="Imgled" width="200px" height="200px">
+                    <h1 class="arduinoescrita">LED</h1>
+                    <h3 id="txtled">
+                        O LED no Arduino é um componente que emite luz e serve para indicar
+                        estados ou feedback visual. É usado em projetos para ensinar sobre 
+                        controle de saída digitais, permitindo ligá-lo e desligá-lo facilmente.
+                    </h3>
+                </div>
+                <div class="cardprodutos">
+                    <img src="imgs/Protoboard.PNG" alt="Imagem Novo Componente" id="Imgproto" width="200px" height="200px">
+                    <h1 class="arduinoescrita">PROTOBOARD</h1>
+                    <h3 id="txtproto">
+                        O protoboard é uma placa de ensaio que
+                         permite fazer conexões temporárias 
+                        entre componentes eletrônicos sem solda,
+                         facilitando a criação e testes de circuitos.
+                    </h3>
+                </div>
+                <div class="cardprodutos">
+                    <img src="imgs/sensor.PNG" alt="Imagem LED" id="Imgsensor" width="200px" height="200px">
+                    <h1 class="arduinoescrita">Sensor Ultrassônico</h1>
+                    <h3 id="txtsensor">
+                        utilizado em projetos com Arduino para medir
+                         distâncias. Ele emite ondas sonoras de alta 
+                         frequência e calcula a distância com base no
+                          tempo que leva para o eco retornar.
+                    </h3>
+                </div>
+                <div class="cardprodutos">
+                    <img id="serverM" src="imgs/ServorMotor.png" alt="Imagem Novo Componente" id="Imgmotor" width="200px" height="200px">
+                    <h1 class="arduinoescrita">Servo Motor</h1>
+                    <h3 id="txtmotor">
+                        Um servo motor é um dispositivo que permite o controle preciso da posição angular.
+                        Gira em um arco limitado, geralmente de 0 a 180 graus> Não permite controle de permissão 
+                    </h3>
+            </div>
+        </div>
+            
+        <div>
+        </div>
+    <section >
+
+    </section>
+    <section id="patrocinadores">
+
+    </section>
+    <section id="chatbot">
+        <div class="chatbot-content">
+            <div class="chatbot-text">
+                <p>
+                    Venha conhecer nosso <span id="corescrita"> ChatBot</span>.
+                    Com o intuito de explicar o projeto <span id="corescrita">Radar Wave</span> introduzimos uma
+                    conversa com uma <span id="corescrita">IA</span> pre-programada para explicar a
+                    você como nosso projeto funciona. Além disso, nossa IA é muito <span id="corescrita">interativa</span>
+                    e <span id="corescrita">dinâmica</span> até certo ponto. Afinal, nossa IA ainda é limitada, mas
+                    nada que vai impedir sua experiência de aproveitar o projeto. <span id="corescrita">
+                </p>
+                <button id="chatbotao" onclick="chat()"><p id="letrabtn">Clique aqui para entrar no Chatbot</p></button>
+            </div>
+            <div class="chatbot-video">
+                <video width="900" loop controls autoplay muted>
+                    <source src="videos/ChatBOT.mp4" type="video/mp4">
+                    Seu navegador não suporta o elemento de vídeo.
+                </video>
+            </div>
+        </div>
+    </section>
+    <section id="jogo" class="sectionjogo">
+        <div class="jogo-content">
+            <!-- Imagem do jogo -->
+            <div class="jogo-imagem">
+                <img src="imgs/Subnau.PNG" alt="Imagem do jogo">
+            </div>
+            <!-- Texto do jogo -->
+            <div class="jogo-texto">
+                <p id="cortexto">
+                    Além disso, temos um <span id="corescrita">jogo</span> feito por nós mesmos, alunos,
+                     onde mostramos como funciona a <span id="corescrita">visão de um submarino</span> em baixo do
+                     oceano e a importancia de um sonar. O jogo é muito <span id="corescrita">divertido e dinâmico,
+                     </span> esperamos que goste do nosso jogo. 
+
+                </p>
+                <br>
+                <button id="jogobotao" onclick="jogo()"><p id="letrabtnjogo">Clique aqui para entrar no Jogo</p></button>
+            </div>
+        </div>
+    </section>
+    <section id="integrantes">
+        <div class="integrantes-content">
+            <img src="imgs/Alunos.jpeg" class="img-anime" alt="Imagem dos alunos" class="img-rounded">
+            <p>
+                Viemos aqui agradecer a você que chegou até aqui. Esperamos que tenha se divertido com nosso projeto.
+                Pedimos que compartilhe com um colega se tiver achado interessante nosso projeto Radar Wave.
+                Aproveite a Feira de Ciências ETEC 2024.
+            </p>
+            <img src="imgs/LOGOetec-x7.png" alt="Logo Centro Paula Souza" class="logo-etec">
+            <img src="imgs/Wradar.png" alt="Logo Wave radar" class="logo-etec" >
+        </div>
+    </section>
+    <script src="JS/cabecalho.js"></script>
+    <script src="JS/entraChat.js"></script>
+    <script src="JS/entrarJogo.js"></script>
+</body>
+
+</html>
